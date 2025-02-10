@@ -171,7 +171,7 @@ Conversion from eye space to homogeneous clip space is handled by `gluPerspectiv
 These two matrices are multiplied together and stored as the GL_PROJECTION matrix.
 We don't need to know the terminology or the details of how these matrices work for this project.
 
-We do, however, need to manage the left hand side of the diagram ourselves. We define a matrix which converts points in the model (also called a mesh) from the model spaces into the world space, called the model matrix. We alse define the view matrix, which converts from the world space into the eye space.
+We do, however, need to manage the left hand side of the diagram ourselves. We define a matrix which converts points in the model (also called a mesh) from the model spaces into the world space, called the model matrix. We also define the view matrix, which converts from the world space into the eye space.
 In this project, we combine these two matrices to obtain the ModelView matrix.
 
 To learn more about the full graphics rendering pipeline, and the coordinate spaces involved, refer to chapter 2 of [*Real Time Rendering*](http://www.realtimerendering.com/), or another introductory computer graphics book.
